@@ -1,0 +1,48 @@
+.sve{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#background {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    z-index: -1; /* Ensure div tag stays behind content; -999 might work, too. */
+}
+
+.stretch {
+    width:100%;
+    height:100%;
+}
+
+button {
+    background-color: black;
+    border: none;
+    color: white;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 24px;
+    margin: 40px 20px;
+    cursor: pointer;
+    border-radius: 12px;
+}
+
+
+@media screen and (min-width: 320px) and (max-width: 767px) and (orientation: landscape) {
+  body {
+    background-color: #009900;
+  }
+}

@@ -1,0 +1,90 @@
+body{
+	background-color: #009900;
+}
+
+.sve{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#aplikacija{
+  color:white;
+  background-color: #009900;
+  text-align: center;
+}
+
+#aplikacija button{
+  width: 60%;
+  margin:auto;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+#aplikacija .botuni{
+  width: 30%;
+  display: inline-block;
+  margin:auto;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+#karte, #pokazivac{
+  text-align: center;
+}
+
+#karte img, #pokazivac img{
+  max-width: 15%;
+  max-height: 15%;
+  display: inline-block;
+}
+
+#poruka{
+  font-size: 16px;
+}
+
+table, td, th {
+    border: 4px solid black;
+    text-align: left;
+}
+
+table {
+    border-collapse: collapse;
+    width: 60%;
+		margin-left:auto;
+    margin-right:auto;
+}
+
+th, td {
+    padding: 5px;
+}
+
+button {
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 40px 20px;
+    cursor: pointer;
+    border-radius: 12px;
+}
+
+input{
+    border: none;
+    color: black;
+    padding: 20px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 40px 20px;
+    border-radius: 12px;
+}
